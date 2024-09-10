@@ -15,7 +15,7 @@ torch==1.2.0
 **本文使用VOC格式进行训练，训练前需要准背好数据集，解压后放在根目录**  
 
 **2. 数据集的处理**   
-修改voc_annotation.py里面的annotation_mode=2，运行voc_annotation.py生成根目录下的2007_train.txt和2007_val.txt。   
+修改voc_annotation.py里面的annotation_mode=2，运行voc_annotation.py生成根目录下的yzc_train.txt和yzc_val.txt。   
 
 **3. 开始网络训练**   
 train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。   
