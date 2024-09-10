@@ -38,4 +38,4 @@ dog
 **model_path指向训练好的权值文件，在logs文件夹里。  
 classes_path指向检测类别所对应的txt。**  
 完成修改后就可以运行predict.py进行检测了。运行后输入图片路径即可检测。  
-···python predict.py ---image_path```
+```python predict.py ---image_path```
